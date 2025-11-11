@@ -1,6 +1,5 @@
 # The Maze
 
-Courte description (1–2 phrases). Exemple :
 Aventure textuelle interactive sur un labyrinthe. Le personnage principal doit prendre les bonnes décisions pour arriver à la fin au péril de sa vie.
 
 ## Comment tester
