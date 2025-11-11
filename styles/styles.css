@@ -1,0 +1,489 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#title {
+  opacity: 1;
+  font-size: 20vh;
+  top: 6%;
+}
+
+h1 {
+  position: fixed;
+  color: black;
+  letter-spacing: 2px;
+  z-index: 102;
+  font-family: 'Minecraft','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation-delay: 4.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+   opacity: 0;
+}
+
+#end3 {
+  position: fixed;
+  color: black;
+  letter-spacing: 2px;
+  z-index: 102;
+  font-family: 'Minecraft','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  animation-delay: 12s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+   opacity: 0;
+}
+
+@font-face {
+  font-family: Minecraft;
+  src: url(/font/Minecraft.ttf);
+}
+
+#end {
+   animation: blurLater 1s ease 4.5s forwards; 
+}
+
+@keyframes blurLater {
+  from {
+    filter: blur(0px);
+  }
+  to {
+    filter: blur(5px);
+  }
+}
+
+#end2 {
+   animation: blurLater2 1s ease 12s forwards; 
+}
+
+@keyframes blurLater2 {
+  from {
+    filter: blur(0px);
+  }
+  to {
+    filter: blur(5px);
+  }
+}
+
+#homeButton {
+  z-index: 105;
+  position: fixed;
+  right: 41%;
+  bottom: 20%;
+  transition: transform 0.2s ease;
+  height: 30vh;
+  opacity: 0;
+  animation-delay: 4.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#homeButton2 {
+  z-index: 105;
+  position: fixed;
+  right: 41%;
+  bottom: 20%;
+  transition: transform 0.2s ease;
+  height: 30vh;
+  opacity: 0;
+  animation-delay: 7s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#homeButton3 {
+  z-index: 105;
+  position: fixed;
+  right: 41%;
+  bottom: 20%;
+  transition: transform 0.2s ease;
+  height: 30vh;
+  opacity: 0;
+  animation-delay: 7s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#homeButton4 {
+  z-index: 105;
+  position: fixed;
+  right: 41%;
+  bottom: 20%;
+  transition: transform 0.2s ease;
+  height: 30vh;
+  opacity: 0;
+  animation-delay: 4.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#homeButton5 {
+  z-index: 105;
+  position: fixed;
+  right: 41%;
+  bottom: 20%;
+  transition: transform 0.2s ease;
+  height: 30vh;
+  opacity: 0;
+  animation-delay: 7s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#homeButton6 {
+  z-index: 105;
+  position: fixed;
+  right: 41%;
+  bottom: 20%;
+  transition: transform 0.2s ease;
+  height: 30vh;
+  opacity: 0;
+  animation-delay: 12s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+.video {
+  z-index: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  object-fit: contain;
+}
+
+#homescreen {
+  filter: blur(3px);
+}
+
+#startButton {
+  position: relative;
+  z-index: 100;
+  height: 20vh;
+  transition: transform 0.2s ease;
+}
+
+
+.hover:hover {
+  opacity: 50% !important;
+  transform: scale(1.25) ;
+} 
+
+#arrow1 {
+  position: relative;
+  z-index: 101;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  right: 40vh;
+  opacity: 0;
+  transform: rotate(-180deg);
+  animation-delay: 1.3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#arrow1.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-180deg);
+}
+
+#arrow2 {
+  position: relative;
+  z-index: 101;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  left: 40vh;
+  opacity: 0;
+  animation-delay: 1.3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#arrow3 {
+  position: fixed;
+  z-index: 101;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  right: 15vw;
+  opacity: 0;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#arrow4 {
+  position: fixed;
+  top: 40%;
+  left: 46.8%;
+  z-index: 101;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-90deg);
+}
+
+#arrow4.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-90deg);
+}
+
+#arrow5 {
+  position: fixed;
+  z-index: 101;
+  left: 20vw;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-180deg);
+}
+
+#arrow5.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-180deg);
+}
+
+#arrow6 {
+  position: fixed;
+  z-index: 101;
+  right: 20%;
+  bottom: 45%;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 3.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+
+#arrow7 {
+  position: fixed;
+  z-index: 101;
+  left: 20vw;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  bottom: 45%;
+  opacity: 0;
+  animation-delay: 3.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-180deg);
+}
+
+#arrow7.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-180deg);
+}
+
+#arrow8 {
+  position: fixed;
+  z-index: 101;
+  right: 20%;
+  bottom: 45%;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 11.7s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#arrow9 {
+  position: fixed;
+  z-index: 101;
+  left: 20vw;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  bottom: 45%;
+  opacity: 0;
+  animation-delay: 11.7s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-180deg);
+}
+
+#arrow9.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-180deg);
+}
+
+#arrow10 {
+  position: fixed;
+  z-index: 101;
+  right: 20%;
+  bottom: 45%;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 14.2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#arrow11 {
+  position: fixed;
+  z-index: 101;
+  left: 20vw;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  bottom: 45%;
+  opacity: 0;
+  animation-delay: 14.2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-180deg);
+}
+
+#arrow11.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-180deg);
+}
+
+#arrow12 {
+  position: fixed;
+  top: 40%;
+  left: 46.8%;
+  z-index: 101;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 14.2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-90deg);
+}
+
+#arrow12.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-90deg);
+}
+
+#arrow13 {
+  position: fixed;
+  z-index: 101;
+  right: 46%;
+  top: 39%;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 7.9s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-90deg);
+}
+
+#arrow13.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-90deg);
+}
+
+#arrow14 {
+  position: fixed;
+  z-index: 101;
+  right: 27%;
+  bottom: 50%;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 7.9s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+}
+
+#arrow15 {
+  position: fixed;
+  z-index: 101;
+  right: 76%;
+  top: 40%;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 7.9s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-180deg);
+}
+
+#arrow15.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-180deg);
+}
+
+#arrow16 {
+  position: fixed;
+  z-index: 101;
+  right: 47%;
+  top: 40%;
+  transition: transform 0.2s ease;
+  height: 10vh;
+  opacity: 0;
+  animation-delay: 3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-name: arrowDisplay;
+  pointer-events: none;
+  transform: rotate(-90deg);
+}
+
+#arrow16.hover:hover{
+  opacity: 50% !important;
+  transform: scale(1.25) rotate(-90deg);
+}
+
+@keyframes arrowDisplay {
+  to {opacity: 1;
+   pointer-events: auto;} /* Rend le bouton interactif */
+}
