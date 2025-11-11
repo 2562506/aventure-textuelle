@@ -4,7 +4,8 @@ Aventure textuelle interactive sur un labyrinthe. Le personnage principal doit p
 
 ## Comment tester
 - Ouvrir `index.html` dans un navigateur **OU**
-- Voir la démo : https://2562506.itch.io/the-maze
+- Voir la démo itch.io: https://2562506.itch.io/the-maze
+- Voir la démo sur GitHub: https://2562506.github.io/aventure-textuelle
 
 ## Crédits
 ### Musique
